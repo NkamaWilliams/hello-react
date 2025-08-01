@@ -1,6 +1,6 @@
 import "./App.css"
 
-function HelloWorld(){
+function HelloWorld({name}){
   return (
     <main>
       <div className="card">
@@ -16,7 +16,7 @@ function HelloWorld(){
 
         <div className="profile">
           <img src="/images/image-avatar.webp" alt="" />
-          <p>Greg hooper</p>
+          <p>{name}</p>
         </div>
       </div>
     </main>
